@@ -23,8 +23,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 ```bash
 # 克隆项目并进入目录
-git clone git@github.com:wos/wos-mcp-server.git
-cd wos-mcp-server
+git clone git@github.com:Wangsu-Cloud-Storage/wcs-mcp-server.git
+cd wcs-mcp-server
 ```
 
 2. 创建并激活虚拟环境：
