@@ -135,8 +135,8 @@ class _ToolImpl:
             },
         )
     )
-    def get_object_url(self, **kwargs) -> list[types.TextContent]:
-        urls = self.storage.get_object_url(**kwargs)
+    async def get_object_url(self, **kwargs) -> list[types.TextContent]:
+        urls = await self.storage.get_object_url(**kwargs)
         return [types.TextContent(type="text", text=str(urls))]
 
 
